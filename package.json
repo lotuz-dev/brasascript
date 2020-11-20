@@ -1,0 +1,38 @@
+{
+  "name": "BrasaScript-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotuz/BrasaScript-site.git"
+  },
+  "author": [
+    "marcel0ll<marcelo@lotuz.dev>"
+  ],
+  "keywords": [
+    "jasvascript",
+    "brasascript",
+    "portugûes"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotuz/BrasaScript-site/issues"
+  },
+  "homepage": "https://github.com/lotuz/BrasaScript-site#readme",
+  "dependencies": {
+    "@babel/standalone": "^7.12.6",
+    "babel-plugin-transform-brasa": "^7.12.305",
+    "brace": "^0.11.1",
+    "classe": "^1.0.0",
+    "debounce": "^1.2.0",
+    "parcel-bundler": "^1.12.4",
+    "soma": "^0.7.13",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
