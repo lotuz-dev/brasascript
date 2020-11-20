@@ -12,6 +12,8 @@ import condicionalExemplo from "./exemplos/condicional";
 import escolhaExemplo from "./exemplos/escolha";
 import somaExemplo from "./exemplos/soma";
 
+import '@fortawesome/fontawesome-free/css/all.css'
+
 const EXEMPLOS = [somaExemplo, condicionalExemplo, escolhaExemplo, classeExemplo];
 
 Babel.registerPlugin("transform-brasa", transformer);
