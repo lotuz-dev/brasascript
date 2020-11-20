@@ -6,9 +6,6 @@ import debounce from "debounce"
 
 import "brace/mode/javascript";
 import "brace/theme/textmate";
-import "brace/keybinding/vim";
-import "brace/ext/beautify";
-
 
 import classeExemplo from "./exemplos/classe";
 import condicionalExemplo from "./exemplos/condicional";
